@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct JumpingJackAnimation: View {
     let countdownElements = [Image("GymboJumpingJack_1")]
     @State private var countdownIndex = 0

@@ -8,10 +8,26 @@
 import SwiftUI
 
 struct ChallengesView: View {
+//    @State private var isActive: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .top) {
+            Color(hex: 0xF97216)
+            ScrollView(showsIndicators: false) {
+                VStack {
+                    ComingsoonChallengesCard(textChallenges: "Challenges 1")
+                    ComingsoonChallengesCard(textChallenges: "Challenges 2")
+                    ComingsoonChallengesCard(textChallenges: "Challenges 3")
+                }
+                .padding(EdgeInsets(top: 175, leading: 0, bottom: 0, trailing: 0))
+            }
+            TopCardGymbo()
+        }
+        .background(Color(hex: 0xF97216))
     }
 }
+
+
 
 #Preview {
     ChallengesView()

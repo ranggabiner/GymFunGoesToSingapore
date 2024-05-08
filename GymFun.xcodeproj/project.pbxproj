@@ -49,6 +49,10 @@
 		8FE72B332BEB427300E284F7 /* JumpingJackOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B322BEB427300E284F7 /* JumpingJackOverlayView.swift */; };
 		8FE72B352BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B342BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift */; };
 		8FE72B382BEB444B00E284F7 /* TopCardGymbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B372BEB444B00E284F7 /* TopCardGymbo.swift */; };
+		8FE72B3A2BEB5EF300E284F7 /* GymboHeadAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B392BEB5EF300E284F7 /* GymboHeadAnimation.swift */; };
+		8FE72B3D2BEB695000E284F7 /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B3C2BEB695000E284F7 /* ChallengesView.swift */; };
+		8FE72B3F2BEB69D100E284F7 /* ComingsoonChallengesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B3E2BEB69D100E284F7 /* ComingsoonChallengesCard.swift */; };
+		8FE72B412BEB6DC700E284F7 /* MainViewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B402BEB6DC700E284F7 /* MainViewCustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +98,10 @@
 		8FE72B322BEB427300E284F7 /* JumpingJackOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingJackOverlayView.swift; sourceTree = "<group>"; };
 		8FE72B342BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingJackCameraWithPosesAndOverlaysView.swift; sourceTree = "<group>"; };
 		8FE72B372BEB444B00E284F7 /* TopCardGymbo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCardGymbo.swift; sourceTree = "<group>"; };
+		8FE72B392BEB5EF300E284F7 /* GymboHeadAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymboHeadAnimation.swift; sourceTree = "<group>"; };
+		8FE72B3C2BEB695000E284F7 /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		8FE72B3E2BEB69D100E284F7 /* ComingsoonChallengesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingsoonChallengesCard.swift; sourceTree = "<group>"; };
+		8FE72B402BEB6DC700E284F7 /* MainViewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +172,7 @@
 				8F854E082BE8A1C500064957 /* BicepCurlCard.swift */,
 				8FABB6DE2BE8C64700433FA3 /* SquatCard.swift */,
 				8FABB6E42BE8CDF000433FA3 /* JumpingJackCard.swift */,
+				8FE72B3E2BEB69D100E284F7 /* ComingsoonChallengesCard.swift */,
 			);
 			path = CardView;
 			sourceTree = "<group>";
@@ -192,6 +201,7 @@
 		8FAD56852BE774A2004B126C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8FE72B3B2BEB693F00E284F7 /* ChallengesView */,
 				8FE72B362BEB442C00E284F7 /* TopCardGymbo */,
 				8FE72B1F2BEB346700E284F7 /* PoseGuide */,
 				8FE72B1C2BEB302600E284F7 /* PosesView */,
@@ -237,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				8FAD568E2BE77ADF004B126C /* MainView.swift */,
+				8FE72B402BEB6DC700E284F7 /* MainViewCustomTabBar.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -273,6 +284,7 @@
 				8F32C1F52BE8572900110A5E /* BicepCurlAnimation.swift */,
 				8FABB6E02BE8C6DB00433FA3 /* SquatAnimation.swift */,
 				8FABB6E22BE8CBA200433FA3 /* JumpingJackAnimation.swift */,
+				8FE72B392BEB5EF300E284F7 /* GymboHeadAnimation.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -355,6 +367,14 @@
 				8FE72B372BEB444B00E284F7 /* TopCardGymbo.swift */,
 			);
 			path = TopCardGymbo;
+			sourceTree = "<group>";
+		};
+		8FE72B3B2BEB693F00E284F7 /* ChallengesView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B3C2BEB695000E284F7 /* ChallengesView.swift */,
+			);
+			path = ChallengesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,8 +465,10 @@
 				8F2A06F72BE888FA00B20BC9 /* ExercisesView.swift in Sources */,
 				8FE72B152BEB2E4200E284F7 /* FloatersItem.swift in Sources */,
 				8FAD56982BE7AEAF004B126C /* GifManager.swift in Sources */,
+				8FE72B3A2BEB5EF300E284F7 /* GymboHeadAnimation.swift in Sources */,
 				8FAD56882BE774DB004B126C /* SplashScreen.swift in Sources */,
 				8FE72B0E2BEB2D6400E284F7 /* Joint.swift in Sources */,
+				8FE72B3D2BEB695000E284F7 /* ChallengesView.swift in Sources */,
 				8FAD568F2BE77ADF004B126C /* MainView.swift in Sources */,
 				8FE72B122BEB2D8D00E284F7 /* Pose.swift in Sources */,
 				8F232C5E2BE77382009A0941 /* ContentView.swift in Sources */,
@@ -456,6 +478,7 @@
 				8F232C5C2BE77382009A0941 /* GymFunApp.swift in Sources */,
 				8FE72B232BEB3B1D00E284F7 /* SquatGuidance.swift in Sources */,
 				8FE72B302BEB422700E284F7 /* SquatCameraWithPosesAndOverlaysView.swift in Sources */,
+				8FE72B412BEB6DC700E284F7 /* MainViewCustomTabBar.swift in Sources */,
 				8FE72B212BEB349B00E284F7 /* BicepCurlGuidance.swift in Sources */,
 				8FE72B2B2BEB41D400E284F7 /* BicepCurlCameraWithPosesAndOverlaysView.swift in Sources */,
 				8FE72B1B2BEB2FF300E284F7 /* CameraView.swift in Sources */,
@@ -471,6 +494,7 @@
 				8FE72B2E2BEB420B00E284F7 /* SquatOverlayView.swift in Sources */,
 				8F854E092BE8A1C500064957 /* BicepCurlCard.swift in Sources */,
 				8FABB6E52BE8CDF000433FA3 /* JumpingJackCard.swift in Sources */,
+				8FE72B3F2BEB69D100E284F7 /* ComingsoonChallengesCard.swift in Sources */,
 				8F32C1F22BE84DC400110A5E /* GymboSayHiAnimation.swift in Sources */,
 				8FABB6E12BE8C6DB00433FA3 /* SquatAnimation.swift in Sources */,
 			);
