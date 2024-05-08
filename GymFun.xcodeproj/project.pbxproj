@@ -52,7 +52,6 @@
 		8FE72B3A2BEB5EF300E284F7 /* GymboHeadAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B392BEB5EF300E284F7 /* GymboHeadAnimation.swift */; };
 		8FE72B3D2BEB695000E284F7 /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B3C2BEB695000E284F7 /* ChallengesView.swift */; };
 		8FE72B3F2BEB69D100E284F7 /* ComingsoonChallengesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B3E2BEB69D100E284F7 /* ComingsoonChallengesCard.swift */; };
-		8FE72B412BEB6DC700E284F7 /* MainViewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B402BEB6DC700E284F7 /* MainViewCustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,7 +100,6 @@
 		8FE72B392BEB5EF300E284F7 /* GymboHeadAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymboHeadAnimation.swift; sourceTree = "<group>"; };
 		8FE72B3C2BEB695000E284F7 /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
 		8FE72B3E2BEB69D100E284F7 /* ComingsoonChallengesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingsoonChallengesCard.swift; sourceTree = "<group>"; };
-		8FE72B402BEB6DC700E284F7 /* MainViewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,7 +245,6 @@
 			isa = PBXGroup;
 			children = (
 				8FAD568E2BE77ADF004B126C /* MainView.swift */,
-				8FE72B402BEB6DC700E284F7 /* MainViewCustomTabBar.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -478,7 +475,6 @@
 				8F232C5C2BE77382009A0941 /* GymFunApp.swift in Sources */,
 				8FE72B232BEB3B1D00E284F7 /* SquatGuidance.swift in Sources */,
 				8FE72B302BEB422700E284F7 /* SquatCameraWithPosesAndOverlaysView.swift in Sources */,
-				8FE72B412BEB6DC700E284F7 /* MainViewCustomTabBar.swift in Sources */,
 				8FE72B212BEB349B00E284F7 /* BicepCurlGuidance.swift in Sources */,
 				8FE72B2B2BEB41D400E284F7 /* BicepCurlCameraWithPosesAndOverlaysView.swift in Sources */,
 				8FE72B1B2BEB2FF300E284F7 /* CameraView.swift in Sources */,

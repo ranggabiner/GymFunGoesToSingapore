@@ -20,12 +20,12 @@ struct MainView: View {
                 ExercisesView()
                     .tabItem {
                         Label("Exercises", systemImage: "figure.run")
-                    }.accentColor(Color(.white))
+                    }
                     
                 ChallengesView()
                     .tabItem {
                         Label("Challenges", systemImage: "figure.run.square.stack")
-                    }.accentColor(Color(.white))
+                    }
             }
         }
         .background(Color(hex: 0xF97216))
