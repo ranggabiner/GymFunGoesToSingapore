@@ -44,7 +44,7 @@ struct FirstOnboarding: View {
                 }
             }
             if isTap {
-                ExercisesView()
+                MainView()
             }
         }
         .background(Color(hex: 0xF97216))

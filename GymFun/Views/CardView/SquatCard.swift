@@ -11,7 +11,7 @@ struct SquatCard: View {
     
     var body: some View {
         VStack {
-            SquatAnimation()
+            SquatAnimation(thisWidth: 108, thisHeight: 108)
             Text("Squat")
                 .fontWeight(.semibold)
                 .font(.system(size: 17))

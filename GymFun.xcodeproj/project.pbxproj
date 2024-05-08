@@ -30,6 +30,25 @@
 		8FAD569C2BE7B7A7004B126C /* FirstOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD569B2BE7B7A7004B126C /* FirstOnboarding.swift */; };
 		8FC0A6002BE8472A008562FA /* LogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0A5FF2BE8472A008562FA /* LogoAnimation.swift */; };
 		8FE34E3D2BE83997001BCE95 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE34E3C2BE83997001BCE95 /* Lottie */; };
+		8FE72B0B2BEB2D3600E284F7 /* ActionCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B0A2BEB2D3600E284F7 /* ActionCounter.swift */; };
+		8FE72B0E2BEB2D6400E284F7 /* Joint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B0D2BEB2D6400E284F7 /* Joint.swift */; };
+		8FE72B102BEB2D7800E284F7 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B0F2BEB2D7800E284F7 /* Connection.swift */; };
+		8FE72B122BEB2D8D00E284F7 /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B112BEB2D8D00E284F7 /* Pose.swift */; };
+		8FE72B152BEB2E4200E284F7 /* FloatersItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B142BEB2E4200E284F7 /* FloatersItem.swift */; };
+		8FE72B172BEB2E6300E284F7 /* FloatersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B162BEB2E6300E284F7 /* FloatersView.swift */; };
+		8FE72B192BEB2F4500E284F7 /* CameraWithPosesAndOverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B182BEB2F4500E284F7 /* CameraWithPosesAndOverlaysView.swift */; };
+		8FE72B1B2BEB2FF300E284F7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B1A2BEB2FF300E284F7 /* CameraView.swift */; };
+		8FE72B1E2BEB303400E284F7 /* PosesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B1D2BEB303400E284F7 /* PosesView.swift */; };
+		8FE72B212BEB349B00E284F7 /* BicepCurlGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B202BEB349B00E284F7 /* BicepCurlGuidance.swift */; };
+		8FE72B232BEB3B1D00E284F7 /* SquatGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B222BEB3B1D00E284F7 /* SquatGuidance.swift */; };
+		8FE72B252BEB3C1700E284F7 /* JumpingJackGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B242BEB3C1700E284F7 /* JumpingJackGuidance.swift */; };
+		8FE72B292BEB419200E284F7 /* BicepCurlOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B282BEB419200E284F7 /* BicepCurlOverlayView.swift */; };
+		8FE72B2B2BEB41D400E284F7 /* BicepCurlCameraWithPosesAndOverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B2A2BEB41D400E284F7 /* BicepCurlCameraWithPosesAndOverlaysView.swift */; };
+		8FE72B2E2BEB420B00E284F7 /* SquatOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B2D2BEB420B00E284F7 /* SquatOverlayView.swift */; };
+		8FE72B302BEB422700E284F7 /* SquatCameraWithPosesAndOverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B2F2BEB422700E284F7 /* SquatCameraWithPosesAndOverlaysView.swift */; };
+		8FE72B332BEB427300E284F7 /* JumpingJackOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B322BEB427300E284F7 /* JumpingJackOverlayView.swift */; };
+		8FE72B352BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B342BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift */; };
+		8FE72B382BEB444B00E284F7 /* TopCardGymbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE72B372BEB444B00E284F7 /* TopCardGymbo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +75,25 @@
 		8FAD56972BE7AEAF004B126C /* GifManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifManager.swift; sourceTree = "<group>"; };
 		8FAD569B2BE7B7A7004B126C /* FirstOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboarding.swift; sourceTree = "<group>"; };
 		8FC0A5FF2BE8472A008562FA /* LogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimation.swift; sourceTree = "<group>"; };
+		8FE72B0A2BEB2D3600E284F7 /* ActionCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCounter.swift; sourceTree = "<group>"; };
+		8FE72B0D2BEB2D6400E284F7 /* Joint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
+		8FE72B0F2BEB2D7800E284F7 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		8FE72B112BEB2D8D00E284F7 /* Pose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		8FE72B142BEB2E4200E284F7 /* FloatersItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatersItem.swift; sourceTree = "<group>"; };
+		8FE72B162BEB2E6300E284F7 /* FloatersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatersView.swift; sourceTree = "<group>"; };
+		8FE72B182BEB2F4500E284F7 /* CameraWithPosesAndOverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraWithPosesAndOverlaysView.swift; sourceTree = "<group>"; };
+		8FE72B1A2BEB2FF300E284F7 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		8FE72B1D2BEB303400E284F7 /* PosesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosesView.swift; sourceTree = "<group>"; };
+		8FE72B202BEB349B00E284F7 /* BicepCurlGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepCurlGuidance.swift; sourceTree = "<group>"; };
+		8FE72B222BEB3B1D00E284F7 /* SquatGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatGuidance.swift; sourceTree = "<group>"; };
+		8FE72B242BEB3C1700E284F7 /* JumpingJackGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingJackGuidance.swift; sourceTree = "<group>"; };
+		8FE72B282BEB419200E284F7 /* BicepCurlOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepCurlOverlayView.swift; sourceTree = "<group>"; };
+		8FE72B2A2BEB41D400E284F7 /* BicepCurlCameraWithPosesAndOverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepCurlCameraWithPosesAndOverlaysView.swift; sourceTree = "<group>"; };
+		8FE72B2D2BEB420B00E284F7 /* SquatOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatOverlayView.swift; sourceTree = "<group>"; };
+		8FE72B2F2BEB422700E284F7 /* SquatCameraWithPosesAndOverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatCameraWithPosesAndOverlaysView.swift; sourceTree = "<group>"; };
+		8FE72B322BEB427300E284F7 /* JumpingJackOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingJackOverlayView.swift; sourceTree = "<group>"; };
+		8FE72B342BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingJackCameraWithPosesAndOverlaysView.swift; sourceTree = "<group>"; };
+		8FE72B372BEB444B00E284F7 /* TopCardGymbo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCardGymbo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +128,8 @@
 		8F232C5A2BE77382009A0941 /* GymFun */ = {
 			isa = PBXGroup;
 			children = (
+				8FE72B0C2BEB2D5600E284F7 /* DrawPose */,
+				8FE72B092BEB2D1C00E284F7 /* CountingPipeline */,
 				8FA17C692BEB0EF100DE9493 /* Model */,
 				8FAD56892BE775EE004B126C /* Assets */,
 				8FAD56852BE774A2004B126C /* Views */,
@@ -131,7 +171,12 @@
 		8FA17C632BEB0E7000DE9493 /* CameraView */ = {
 			isa = PBXGroup;
 			children = (
+				8FE72B312BEB425B00E284F7 /* JumpingJackCameraView */,
+				8FE72B2C2BEB41F500E284F7 /* SquatCameraView */,
+				8FE72B272BEB416900E284F7 /* BicepCurlCameraView */,
 				8FA17C642BEB0E8B00DE9493 /* OverlayView.swift */,
+				8FE72B182BEB2F4500E284F7 /* CameraWithPosesAndOverlaysView.swift */,
+				8FE72B1A2BEB2FF300E284F7 /* CameraView.swift */,
 			);
 			path = CameraView;
 			sourceTree = "<group>";
@@ -147,6 +192,10 @@
 		8FAD56852BE774A2004B126C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8FE72B362BEB442C00E284F7 /* TopCardGymbo */,
+				8FE72B1F2BEB346700E284F7 /* PoseGuide */,
+				8FE72B1C2BEB302600E284F7 /* PosesView */,
+				8FE72B132BEB2E2D00E284F7 /* Floaters */,
 				8FA17C632BEB0E7000DE9493 /* CameraView */,
 				8F2A06F82BE88CE000B20BC9 /* CardView */,
 				8F2A06F52BE888E900B20BC9 /* ExercisesView */,
@@ -228,6 +277,86 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		8FE72B092BEB2D1C00E284F7 /* CountingPipeline */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B0A2BEB2D3600E284F7 /* ActionCounter.swift */,
+			);
+			path = CountingPipeline;
+			sourceTree = "<group>";
+		};
+		8FE72B0C2BEB2D5600E284F7 /* DrawPose */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B0D2BEB2D6400E284F7 /* Joint.swift */,
+				8FE72B0F2BEB2D7800E284F7 /* Connection.swift */,
+				8FE72B112BEB2D8D00E284F7 /* Pose.swift */,
+			);
+			path = DrawPose;
+			sourceTree = "<group>";
+		};
+		8FE72B132BEB2E2D00E284F7 /* Floaters */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B142BEB2E4200E284F7 /* FloatersItem.swift */,
+				8FE72B162BEB2E6300E284F7 /* FloatersView.swift */,
+			);
+			path = Floaters;
+			sourceTree = "<group>";
+		};
+		8FE72B1C2BEB302600E284F7 /* PosesView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B1D2BEB303400E284F7 /* PosesView.swift */,
+			);
+			path = PosesView;
+			sourceTree = "<group>";
+		};
+		8FE72B1F2BEB346700E284F7 /* PoseGuide */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B202BEB349B00E284F7 /* BicepCurlGuidance.swift */,
+				8FE72B222BEB3B1D00E284F7 /* SquatGuidance.swift */,
+				8FE72B242BEB3C1700E284F7 /* JumpingJackGuidance.swift */,
+			);
+			path = PoseGuide;
+			sourceTree = "<group>";
+		};
+		8FE72B272BEB416900E284F7 /* BicepCurlCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B282BEB419200E284F7 /* BicepCurlOverlayView.swift */,
+				8FE72B2A2BEB41D400E284F7 /* BicepCurlCameraWithPosesAndOverlaysView.swift */,
+			);
+			path = BicepCurlCameraView;
+			sourceTree = "<group>";
+		};
+		8FE72B2C2BEB41F500E284F7 /* SquatCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B2D2BEB420B00E284F7 /* SquatOverlayView.swift */,
+				8FE72B2F2BEB422700E284F7 /* SquatCameraWithPosesAndOverlaysView.swift */,
+			);
+			path = SquatCameraView;
+			sourceTree = "<group>";
+		};
+		8FE72B312BEB425B00E284F7 /* JumpingJackCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B322BEB427300E284F7 /* JumpingJackOverlayView.swift */,
+				8FE72B342BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift */,
+			);
+			path = JumpingJackCameraView;
+			sourceTree = "<group>";
+		};
+		8FE72B362BEB442C00E284F7 /* TopCardGymbo */ = {
+			isa = PBXGroup;
+			children = (
+				8FE72B372BEB444B00E284F7 /* TopCardGymbo.swift */,
+			);
+			path = TopCardGymbo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,20 +436,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE72B292BEB419200E284F7 /* BicepCurlOverlayView.swift in Sources */,
 				8F32C1F62BE8572900110A5E /* BicepCurlAnimation.swift in Sources */,
+				8FE72B252BEB3C1700E284F7 /* JumpingJackGuidance.swift in Sources */,
+				8FE72B0B2BEB2D3600E284F7 /* ActionCounter.swift in Sources */,
+				8FE72B192BEB2F4500E284F7 /* CameraWithPosesAndOverlaysView.swift in Sources */,
 				8FABB6E32BE8CBA200433FA3 /* JumpingJackAnimation.swift in Sources */,
 				8F2A06F72BE888FA00B20BC9 /* ExercisesView.swift in Sources */,
+				8FE72B152BEB2E4200E284F7 /* FloatersItem.swift in Sources */,
 				8FAD56982BE7AEAF004B126C /* GifManager.swift in Sources */,
 				8FAD56882BE774DB004B126C /* SplashScreen.swift in Sources */,
+				8FE72B0E2BEB2D6400E284F7 /* Joint.swift in Sources */,
 				8FAD568F2BE77ADF004B126C /* MainView.swift in Sources */,
+				8FE72B122BEB2D8D00E284F7 /* Pose.swift in Sources */,
 				8F232C5E2BE77382009A0941 /* ContentView.swift in Sources */,
+				8FE72B332BEB427300E284F7 /* JumpingJackOverlayView.swift in Sources */,
 				8FA17C652BEB0E8B00DE9493 /* OverlayView.swift in Sources */,
 				8FABB6DF2BE8C64700433FA3 /* SquatCard.swift in Sources */,
 				8F232C5C2BE77382009A0941 /* GymFunApp.swift in Sources */,
+				8FE72B232BEB3B1D00E284F7 /* SquatGuidance.swift in Sources */,
+				8FE72B302BEB422700E284F7 /* SquatCameraWithPosesAndOverlaysView.swift in Sources */,
+				8FE72B212BEB349B00E284F7 /* BicepCurlGuidance.swift in Sources */,
+				8FE72B2B2BEB41D400E284F7 /* BicepCurlCameraWithPosesAndOverlaysView.swift in Sources */,
+				8FE72B1B2BEB2FF300E284F7 /* CameraView.swift in Sources */,
+				8FE72B352BEB42E100E284F7 /* JumpingJackCameraWithPosesAndOverlaysView.swift in Sources */,
 				8FA17C6B2BEB0F0F00DE9493 /* ViewModel.swift in Sources */,
+				8FE72B102BEB2D7800E284F7 /* Connection.swift in Sources */,
+				8FE72B172BEB2E6300E284F7 /* FloatersView.swift in Sources */,
 				8FAD56922BE77B58004B126C /* HexCodeExtension.swift in Sources */,
 				8FC0A6002BE8472A008562FA /* LogoAnimation.swift in Sources */,
+				8FE72B1E2BEB303400E284F7 /* PosesView.swift in Sources */,
+				8FE72B382BEB444B00E284F7 /* TopCardGymbo.swift in Sources */,
 				8FAD569C2BE7B7A7004B126C /* FirstOnboarding.swift in Sources */,
+				8FE72B2E2BEB420B00E284F7 /* SquatOverlayView.swift in Sources */,
 				8F854E092BE8A1C500064957 /* BicepCurlCard.swift in Sources */,
 				8FABB6E52BE8CDF000433FA3 /* JumpingJackCard.swift in Sources */,
 				8F32C1F22BE84DC400110A5E /* GymboSayHiAnimation.swift in Sources */,

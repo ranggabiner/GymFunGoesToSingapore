@@ -11,7 +11,7 @@ struct JumpingJackCard: View {
     
     var body: some View {
         VStack {
-            JumpingJackAnimation()
+            JumpingJackAnimation(thisWidth: 108, thisHeight: 108)
             Text("Jumping Jack")
                 .fontWeight(.semibold)
                 .font(.system(size: 17))

@@ -10,6 +10,8 @@ struct BicepCurlAnimation: View {
     let countdownElements = [Image("GymboBicepCurl_1")]
     @State private var countdownIndex = 0
     @State private var timer: Timer?
+    var thisWidth: CGFloat
+    var thisHeight: CGFloat
     
     var body: some View {
         ZStack {
@@ -27,11 +29,11 @@ struct BicepCurlAnimation: View {
         if countdownIndex < countdownElements.count {
             return countdownElements[countdownIndex]
                 .resizable()
-                .frame(width: 108, height: 108)
+                .frame(width: thisWidth, height: thisHeight)
         } else {
             return Image("GymboBicepCurl_2")
                 .resizable()
-                .frame(width: 108, height: 108)
+                .frame(width: thisWidth, height: thisHeight)
         }
     }
     
@@ -49,7 +51,7 @@ struct BicepCurlAnimation: View {
 #if DEBUG
 struct BicepCurlAnimation_Previews: PreviewProvider {
     static var previews: some View {
-        BicepCurlAnimation()
+        BicepCurlAnimation(thisWidth: 108, thisHeight: 108)
     }
 }
 #endif

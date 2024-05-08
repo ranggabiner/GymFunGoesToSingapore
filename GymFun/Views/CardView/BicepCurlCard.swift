@@ -11,7 +11,7 @@ struct BicepCurlCard: View {
     
     var body: some View {
         VStack {
-            BicepCurlAnimation()
+            BicepCurlAnimation(thisWidth: 108, thisHeight: 108)
             Text("Bicep Curl")
                 .fontWeight(.semibold)
                 .font(.system(size: 17))

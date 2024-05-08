@@ -7,7 +7,7 @@
 
 import SwiftUI
 struct GymboSayHiAnimation: View {
-    let countdownElements = [Image("GymboSayHi_1"),Image("GymboSquat_2")]
+    let countdownElements = [Image("GymboSayHi_1")]
     @State private var countdownIndex = 0
     @State private var timer: Timer?
     

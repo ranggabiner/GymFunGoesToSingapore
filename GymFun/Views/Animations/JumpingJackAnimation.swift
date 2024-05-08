@@ -13,6 +13,8 @@ struct JumpingJackAnimation: View {
     let countdownElements = [Image("GymboJumpingJack_1")]
     @State private var countdownIndex = 0
     @State private var timer: Timer?
+    var thisWidth: CGFloat
+    var thisHeight: CGFloat
     
     var body: some View {
         ZStack {
@@ -29,11 +31,11 @@ struct JumpingJackAnimation: View {
         if countdownIndex < countdownElements.count {
             return countdownElements[countdownIndex]
                 .resizable()
-                .frame(width: 108, height: 108)
+                .frame(width: thisWidth, height: thisHeight)
         } else {
             return Image("GymboJumpingJack_2")
                 .resizable()
-                .frame(width: 108, height: 108)
+                .frame(width: thisWidth, height: thisHeight)
         }
     }
     
@@ -51,7 +53,7 @@ struct JumpingJackAnimation: View {
 #if DEBUG
 struct JumpingJackAnimation_Previews: PreviewProvider {
     static var previews: some View {
-        JumpingJackAnimation()
+        JumpingJackAnimation(thisWidth: 108, thisHeight: 108)
     }
 }
 #endif

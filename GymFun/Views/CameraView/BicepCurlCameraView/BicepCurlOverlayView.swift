@@ -1,5 +1,5 @@
 //
-//  OverlayView.swift
+//  BicepCurlOverlayView.swift
 //  GymFun
 //
 //  Created by Rangga Biner on 08/05/24.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// - Tag: OverlayView
-struct OverlayView: View {
+struct BicepCurlOverlayView: View {
 
     @State var isPresented = false
 
@@ -96,21 +96,9 @@ struct OverlayView: View {
 }
 
 
-
-extension View {
-    func bubbleBackground() -> some View {
-        self.padding()
-            .background {
-                RoundedRectangle(cornerRadius: 10)
-                    .foregroundColor(.primary)
-                    .opacity(0.4)
-            }
-    }
-}
-
-struct OverlayView_Previews: PreviewProvider {
+struct BicepCurlOverlayView_Previews: PreviewProvider {
     static var previews: some View {
-        OverlayView(detected: true, overlayCount: false, percent: 10 / 10) { }
+        BicepCurlOverlayView(detected: true, overlayCount: false, percent: 10 / 10) { }
             .background(Color.red.opacity(0.4))
 
     }

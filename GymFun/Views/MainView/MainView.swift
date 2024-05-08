@@ -12,7 +12,7 @@ struct MainView: View {
         ZStack {
             Color(hex: 0xF97216)
             TabView {
-                SplashScreen()
+                ExercisesView()
                     .tabItem {
                         Label("Exercises", systemImage: "figure.run")
                     }
